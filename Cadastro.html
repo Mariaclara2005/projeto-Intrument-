@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>   
+    <link href="index.css" rel="stylesheet"/>
+</head>
+
+<header>
+    <p> Bem Vindo(a)!!!!!</p>
+</header>
+
+<body>
+
+<form action="*">
+    <h3>Cadastro do Usuário</h3>
+    <h4>Dados Pessoais</h4>
+        <p>Nome*:   
+            <input required type="text" name="nome" size="20"/>
+        </p>
+        <p>Senha*:   
+        <input required type="password" name="senha" size="10" minlength="8" maxlength="15"/>
+        </p>
+        <p>CPF*:   
+            <input required type="text" name="cpf" size="15" maxlength="14" autocomplete="___.___.___-__"/>
+        </p>
+        <p>Telefone*:   
+            <input required type="tel" name="tel" />
+        </p>
+        <p>Email*:   
+            <input required type="email" name="email" size="50" />
+        </p>
+<h4>Localização</h4>
+
+<p>Estado*:  
+    <select required name="uf">
+        <option value="uf">AC</option>
+        <option value="uf">AL</option>
+        <option value="uf">AP</option>
+        <option value="uf">AM</option>
+        <option value="uf">BA</option>
+        <option value="uf">CE</option>
+        <option value="uf">DF</option>
+        <option value="uf">ES</option>
+        <option value="uf">GO</option>
+        <option value="uf">MA</option>
+        <option value="uf">MT</option>
+        <option value="uf">MS</option>
+        <option value="uf">MG</option>
+        <option value="uf">PA</option>
+        <option value="uf">PB</option>
+        <option value="uf">PR</option>
+        <option value="uf">PE</option>
+        <option value="uf">PI</option>
+        <option value="uf">RJ</option>
+        <option value="uf">RN</option>
+        <option value="uf">RS</option>
+        <option value="uf">RO</option>
+        <option value="uf">RR</option>
+        <option value="uf">SC</option>
+        <option value="uf">SP</option>
+        <option value="uf">SE</option>
+        <option value="uf">TO</option>
+    </select>
+<p>Cidade*:
+    <input required type="text" name="cid" size="25" maxlength="35"/>
+</p>
+<br>
+    <input type="submit" name="go" value="Cadastrar"/>
+    <input type="submit" name="back" value="Voltar"/>
+
+    </form>
+</body>
+
+<footer>
+
+    <h4>Nossos contatos</h4>
+    <p>Telefone: (99) 9 9999-9999</p>
+    <p>Email: instmusic@gmail.com</p>
+
+    <h4>Formas de pagamento</h4>
+
+    <p>
+        Cartão de Débito<br>
+        Cartão de Crédito<br>
+        Pix<br>
+        Google pay<br>
+    </p>
+
+</footer>

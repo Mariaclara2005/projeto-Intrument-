@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #F5F5F5;
+    margin: 0;
+  }
+
+
+  header {
+    background-color: #F0D085;
+    height: 7em;
+    padding-bottom: 1em;
+}
+
+
+.Insiracodigo{
+    margin-top: 3em;
+    padding-bottom: 10px ;
+    font-size: 3em;
+    color: #625148;
+}
+
+#img-logo {
+    width: 10em;
+    height: 10em;
+    margin-top: -1em right;
+    align-items: center;
+    margin-right: 80em;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    margin-top: 7em;
+    padding-bottom: 90px;
+    margin-left: 20em;
+    margin-right: 20em;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+  
+  .code-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 6em;
+  }
+  
+  input[type="text"] {
+    width: 55px;
+    height: 110px;
+    border: 3px solid #F0D085;
+    border-radius: 5em;
+    text-align: center;
+    margin: 0 5px;
+    
+  }
+  
+  button {
+    background-color: #241711;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 40em;
+    width: 9em;
+  }
+
+  button:hover{
+    background-color: #F0D085;
+    transition: 0.3s;
+  }

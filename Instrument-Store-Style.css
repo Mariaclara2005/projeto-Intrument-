@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    width: 200px;
+    
+}
+.login{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+div.image-telai img{
+    width: 100%;
+    height: auto;
+}
+div.itens1{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+div.itens2{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+div.itens3{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+div.categorias1{
+    display: flex;
+    justify-content: space-around;
+}
+div.categorias2{
+    display: flex;
+    justify-content: space-around;
+}
+div.categorias3 img{
+    width: 100%;
+    height: auto;
+}
+div.categorias{
+    margin: 50px;
+    justify-items: center;
+}
+
