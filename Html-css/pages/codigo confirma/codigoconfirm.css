@@ -15,7 +15,7 @@ body {
     background-color: #F0D085;
     height: 7em;
     padding-bottom: 1em;
-}
+  }
 
 
 .Insiracodigo{
@@ -26,11 +26,11 @@ body {
 }
 
 #img-logo {
-    width: 10em;
-    height: 10em;
-    margin-top: -1em right;
-    align-items: center;
-    margin-right: 80em;
+  width: 7em;
+  height: 7em;
+  margin-top: -1em right;
+  align-items: center;
+  margin-right: 85em;
 }
 
 .box1{
@@ -39,11 +39,13 @@ body {
     align-items: center;
     background-color: #f6f6f6;
     margin-top: 7em;
-    padding-bottom: 90px;
-    margin-left: 20em;
+    margin-left: 29em;
     margin-right: 20em;
     border-radius: 2%;
+    width: 40em;
+    height: 30em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 2em;
 }
 
   
@@ -74,8 +76,9 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 6px;
-    margin-left: 40em;
+    margin-left: 30em;
     width: 9em;
+    margin-top: -2em;
   }
 
   button:hover{

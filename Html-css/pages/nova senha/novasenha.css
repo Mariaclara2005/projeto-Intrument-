@@ -22,11 +22,13 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: #f6f6f6;
-    margin-top: 7em;
-    padding-bottom: 90px;
-    margin-left: 20em;
+    margin-top: 8em;
+    padding-bottom: 80px;
+    margin-left: 30em;
     margin-right: 20em;
     border-radius: 2%;
+    height:30em;
+    width: 40em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -45,11 +47,11 @@ header {
     align-items: center;
 
     img {
-        height: 25em;
+        height: 15em;
     }
 
     p {
-        font-size: 4em;
+        font-size: 2em;
         color: #625148;
         padding-bottom: 1em;
         text-shadow: 20px 15px 10px rgba(0, 0, 0, 0.2);
@@ -67,11 +69,15 @@ header {
     padding-right: 20%;
     justify-content: center;
     padding-bottom: 20px;
+    margin-top: -50px;
+    width: 37em;
+    height: 20em;
+
 
 }
 
 
-.email {
+.Novasenha {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,19 +86,20 @@ header {
     margin-top: 30px;
     padding-bottom: 20px;
 }
-#email-box{
+#Novasenha{
     height: 30px;
     color: #FFFFFF;
 
 }
-#senha-box{
+#Confimsenha-box{
     height: 30px;
+ 
 
 }
-.senha{
+.Confirmsenha{
     margin-bottom: 10px;
 }
-.entrar{
+.Confirmar{
     margin: 10px;
     margin-top: 10px;
 }
@@ -106,42 +113,33 @@ input {
 
 }
 
-.Recsenha{
-    margin-left: 60%;
-    font-size: 15px;
-    padding-bottom: 20px;
-}
-
-a {
-    color: #443832;
-    text-decoration: none;
-}
 
 button {
     background-color: #59514d;
     text-align: center;
-    margin-left: 4em;
-    width: 200px;
-    height: 20px;
+    margin-right: 8px;
+    width: 220px;
+    height: 25px;
     border-radius: 5px;
     color: #FFFFFF;
     border-color: #44383200;
+    margin-top: 2em;
+    
 
 }
 
-.cadastrar{
+.Confirmar{
     display: flex;
     justify-content: center;
     
 }
 
-
-
-
-button:hover{
-    background-color: #F0D085;
+button:hover {
     transition: 0.3s;
+    background-color: #F0D085;
 }
+
+
 
 
 
