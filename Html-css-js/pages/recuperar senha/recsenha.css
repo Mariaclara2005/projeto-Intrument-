@@ -11,8 +11,8 @@ body {
 
 header {
     background-color: #F0D085;
-    height: 5em;
-    padding-bottom: 3em;
+    height: 7em;
+    padding-bottom: 1em;
 }
 
 
@@ -23,22 +23,22 @@ header {
     align-items: center;
     background-color: #f6f6f6;
     margin-top: 4em;
-    padding-bottom: 50px;
+    padding-bottom: 3em;
     margin-left: 30em;
     margin-right: 20em;
     border-radius: 2%;
     height:30em;
-    width: 38em;
+    width: 37em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 #img-logo {
     width: 10em;
     height: 10em;
-    margin-top: 3em right;
+    margin-top: -1em right;
     align-items: center;
     margin-right: 20em;
-    padding-bottom: 3em;
 }
 
 .imagem1 {
@@ -48,28 +48,27 @@ header {
     align-items: center;
 
     img {
-        height: 15em;
+        height: 20em;
     }
 
     p {
-        font-size: 3em;
+        font-size: 2em;
         color: #625148;
-        padding-bottom: 1em;
+        padding-bottom: 0em;
         text-shadow: 20px 15px 10px rgba(0, 0, 0, 0.2);
         margin-right: 2em;
 
     }
 }
 
-.Container .Box1 .Box2 {
+.Box2 {
     background-color: #b6b0b04c;
     border-radius: 20px;
-
     justify-content: center;
-    padding-bottom: 20px;
-    margin-top: -50px;
-    width: 34em;
-    height: 20em;
+    padding-bottom: 9px;
+    width: 33em;
+    height: 30em;
+    margin-top: -4em;
 
 }
 
@@ -82,7 +81,6 @@ header {
     border-radius: 6;
     margin-top: 30px;
     padding-bottom: 20px;
-    margin-right: 1em;
 }
 #email-box{
     width: 23em;
@@ -90,24 +88,11 @@ header {
     color: #FFFFFF;
 
 }
-#senha-box{
-    width: 23em;
-    height: 30px;
-    color: #FFFFFF;
-   padding-right: 90px;
-   margin-right: 14em;
 
-}
-.senha{
-    margin-bottom: 10px;
-    margin-left: 7em;
-    
-
-}
-.entrar{
+.enviar{
     margin: 10px;
     margin-top: 10px;
-    margin-left: 7em;
+    margin-left: 8em;
 }
 input {
     background-color: #241711;
@@ -119,21 +104,12 @@ input {
 
 }
 
-.Recsenha{
-    margin-left: 60%;
-    font-size: 13px;
-    padding-bottom: 20px;
-}
 
-a {
-    color: #443832;
-    text-decoration: none;
-}
 
 button {
     background-color: #59514d;
     text-align: center;
-    margin-left: 4em;
+    margin-left: 3em;
     width: 200px;
     height: 20px;
     border-radius: 5px;
@@ -142,19 +118,19 @@ button {
 
 }
 
-.cadastrar{
-    display: flex;
-    justify-content: center;
-    margin-left: 1em;
+.Insiraoemail{
+    margin-top: 1em;
+    align-items: center;
+    color: #241711d9;
+    margin-left: 6em;
+    font-size: 25px;
+    text-shadow: 20px 15px 10px rgba(0, 0, 0, 0.2);
+  
 }
-
-
 
 
 button:hover{
     background-color: #F0D085;
     transition: 0.3s;
 }
-
-
 

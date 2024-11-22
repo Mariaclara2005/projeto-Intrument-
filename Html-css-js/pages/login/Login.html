@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../src/imgs/icon.icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../../pages/login/login.css">
+    <title>Login</title>
+
+</head>
+<body>
+    <header>
+        <a href="../../pages/tela inicial/Tela Inicial.html">
+            <img src="../../src/imgs/logo.png" alt="" id="img-logo">
+          </a>
+       </header>
+    </header>
+
+       <div class="Container">
+        <div class="Box1">
+          <div class="imagem1">
+             <img src="../../src/imgs/logo.png" alt="" id="img1">
+               <p>Login</p>
+            </div>
+
+    <form>
+        <input type="text" placeholder="Login" id="login">
+        <input type="password" placeholder="Senha" id="senha">
+        <div class="Recsenha">
+            <a href="../../pages/recuperar senha/Recsenha.html">Recuperar senha</a>
+        </div>
+         <button type="submit" onclick="logar(); return false" name="Entrar" id="entrar">Entrar</button>
+    </form>
+        </div>
+
+    <script>
+        function logar(){
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "admin" && senha == "admin"){
+                alert('Sucesso');
+                location.href = "../../pages/tela inicial/Tela Inicial.html";
+            }else{
+                alert('Usuario ou senha incorretos');
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
