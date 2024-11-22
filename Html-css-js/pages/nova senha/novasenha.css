@@ -4,15 +4,44 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body {
-    margin: 0;
+
+*{
+    box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+  
+}
+
+#password{
+    margin-top: 4em;
+}
+
+#confirmPassword{
+    margin-top: -1em;
+}
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+    background-color: #b6b0b04c;
+    border-radius: 20px;
+
+    justify-content: center;
+    margin-top: -50px;
+    width: 34em;
+    height: 17em;
+    padding-bottom: 3em;
+}
 
 header {
     background-color: #F0D085;
-    height: 7em;
-    padding-bottom: 1em;
+    height: 5em;
+    justify-content: space-around;
+    margin: 0%;
+    padding-bottom: 3em;
 }
 
 
@@ -22,22 +51,24 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: #f6f6f6;
-    margin-top: 3em;
-    padding-bottom: 60px;
+    margin-top: 6em;
     margin-left: 30em;
     margin-right: 20em;
     border-radius: 2%;
     height:30em;
-    width: 40em;
+    width: 38em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 35%;
 }
 
 #img-logo {
-    width: 10em;
-    height: 10em;
-    margin-top: -1em right;
+    width: 11em;
+    height: 14em;
     align-items: center;
-    margin-right: 20em;
+    margin-right: 16em;
+    margin-left: 4em;
+    padding-bottom: 3em;
+    margin-top: -2em;
 }
 
 .imagem1 {
@@ -55,26 +86,25 @@ header {
         color: #625148;
         padding-bottom: 1em;
         text-shadow: 20px 15px 10px rgba(0, 0, 0, 0.2);
-        margin-right: 2em;
+        margin-right: 1em;
 
     }
 }
 
-.Container .Box1 .Box2 {
+.Container .Box1 .b0ox2 {
     background-color: #b6b0b04c;
     border-radius: 20px;
 
     justify-content: center;
-    padding-bottom: 20px;
     margin-top: -50px;
-    width: 37em;
-    height: 20em;
-
+    width: 34em;
+    height: 17em;
+    
 
 }
 
 
-.Novasenha {
+.email {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,62 +112,214 @@ header {
     border-radius: 6;
     margin-top: 30px;
     padding-bottom: 20px;
+    margin-right: 1em;
 }
-#Novasenha{
+#Confirm-senha{
+    width: 24em;
+    height: 28px;
+    color: #FFFFFF;
+    margin-top: -1em;
+
+}
+#senha-box{
+    width: 23em;
     height: 30px;
     color: #FFFFFF;
+   padding-right: 9px;
+   margin-right: 14em;
+   margin-top: 2em;
 
 }
-#Confimsenha-box{
-    height: 30px;
- 
-
-}
-.Confirmsenha{
+.senha{
     margin-bottom: 10px;
-    margin-left: 8em;
+    margin-left: 9em;
+    
+
 }
-.Confirmar{
+#entrar{
     margin: 10px;
-    margin-top: 10px;
+    margin-top: 3em;
+    margin-left: 1em;
 }
-input {
+
+    
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
     background-color: #241711;
     width: 25em;
     border-radius: 6px;
-    margin-top: 1em;
+    margin-top: 3em;
     color: #FFFFFF;
-
-
 }
 
+
+
+.Recsenha{
+    margin-left: 60%;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #ffffff9a;
+    text-decoration: none;
+}
 
 button {
     background-color: #59514d;
     text-align: center;
-    margin-right: 8px;
-    width: 220px;
+    width: 20em;
     height: 25px;
     border-radius: 5px;
     color: #FFFFFF;
     border-color: #44383200;
-    margin-top: 2em;
-    
+    margin-top: -1em;
 
 }
 
-.Confirmar{
+.cadastrar{
     display: flex;
     justify-content: center;
-    
+    margin-left: -1em;
 }
 
-button:hover {
-    transition: 0.3s;
+
+
+
+button:hover{
     background-color: #F0D085;
+    transition: 0.3s;
 }
 
 
+              
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url("../fonte/Montserrat");
+}
+
+footer {
+    background-color: #241711;
+    color: white;
+    padding: 60px;
+    font-family: 'font';
+    width: 100%;
+    margin-top: 120px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 92%;
+    margin: 0 auto;
+}
+
+.informacoes>div>div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    max-width: 70px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+#pag{
+	display: flex;
+	justify-content: center;
+	background: white;
+	padding: 10px 5px 10px 5px;
+	border-radius: 3px;
+	
+	imgs{
+		width: 50px;
+	}
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
 
 
+.pagamento .formas_pagamento {
+    gap: 5px;
+    max-width: 250px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
+#linha {
+    width: 92%;
+    padding: 0.3px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#direitos_reservados {
+    font-size: 11px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.siga-nos{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.siga-nos div{
+	flex-direction: row !important;
+	align-items: center;
+	cursor: pointer;
+	
+	imgs{
+		width: 30px;
+	}
+	
+	h1{
+		margin-bottom: 0px;
+	}
+}
+
+
+.siga-nos div:hover{
+	a{
+		text-decoration: underline;
+	}
+}
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .error {
+        color: red;
+    }
+    .success {
+        color: green;
+    }

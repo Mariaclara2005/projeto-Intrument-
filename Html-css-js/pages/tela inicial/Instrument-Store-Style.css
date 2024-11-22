@@ -32,7 +32,7 @@ header{
 }
 .input-buscar{
    margin-top: -1em;
-   margin-right: -2em;
+   margin-right: -1em;
 }
 .input-buscar input{
     border-radius: 20px;
@@ -411,6 +411,7 @@ div.itens3{
 .categorias img{
     height: fit-content;
 }
+
 
               
 * {

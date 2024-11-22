@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Carrinho pronto para ser incluído -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h1>Carrinho de Compras</h1>
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Itens adicionados ao carrinho aparecerão aqui -->
+                </tbody>
+            </table>
+
+            <div class="cart-summary">
+                <p><strong>Subtotal:</strong> R$ <span id="subtotal">0,00</span></p>
+                <p><strong>Frete:</strong> R$ 50,00</p>
+                <p><strong>Total (com frete):</strong> R$ <span id="total">50,00</span></p>
+            </div>
+
+            <div class="cart-actions">
+                <button id="finalize-btn" class="btn">Finalizar Compra</button>
+                <button class="close-btn btn">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../Javascript/script.js"></script>
+</body>
+</html>

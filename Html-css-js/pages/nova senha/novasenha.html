@@ -1,55 +1,129 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../pages/nova senha/novasenha.css">
-    <link rel="stylesheet" type="text/css" href="Footer.css">
     <link rel="shortcut icon" href="../../src/imgs/icon.icon.jpeg" type="image/x-icon">
-
+    <link rel="stylesheet" href="../../pages/nova senha/novasenha.css">
     <title>Nova Senha</title>
-
 </head>
 
-<body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .error {
+        color: red;
+    }
+    .success {
+        color: green;
+    }
+</style>
 
+<body>
     <header>
         <a href="../../pages/tela inicial/Tela Inicial.html">
-         <img src="../../src/imgs/logo.png" alt="" id="img-logo">
-       </a>
+            <img src="../../src/imgs/logo.png" alt="" id="img-logo">
+          </a>
+       </header>
     </header>
-
+     
     <div class="Container">
-
         <div class="Box1">
+         <div class="imagem1">
+         <img src="../../src/imgs/logo.png" alt="" id="img1">
+          <p>Nova senha</p>
+         </div>
+ 
+    <form id="passwordForm">
+        <input type="password" placeholder="senha" id="password" name="" required><br><br>
+        <input type="password" placeholder="Confirmar Senha" id="confirmPassword" name="confirmPassword" required><br><br>
 
-            <div class="imagem1">
+        
+        <button type="submit"    onclick="addEventListener()">Enviar</button>
+        <p id="message"></p>
+    </form>    
+    
+        </div>
+        
+    <footer>
+        <div class="informacoes">
+            <div>
+                <h1>ATENDIMENTO AO CLIENTE</h1>
 
-                <img src="../../src/imgs/logo.png" alt="" id="img1">
-                <p>Nova Senha</p>
-
+                <div>
+                    <a>Central de ajuda</a>
+                    <a>Garantia Strument Store</a>
+                    <a>Ouvidoria</a>
+                    <a>Fale Conosco</a>
+                </div>
             </div>
 
-            <div class="Box2">
-                <div class="Novasenha">
-                    <input type="password" name="" placeholder="Nova senha:" id="Novasenha">
-                </div>
+            <div>
+                <h1>SOBRE A INSTRUMENT STORE</h1>
 
-                <div class="Confirmsenha">
-                    <input type="password" name="" placeholder="Confirmar Senha:" id="Confimsenha-box">
+                <div>
+                    <a>Central de ajuda</a>
+                    <a>Garantia Strument Store</a>
+                    <a>Ouvidoria</a>
+                    <a>Fale Concosco</a>
                 </div>
-
-                <div class="Confirmar">
-                    <a href="../../pages/login/Login.html">
-                     <button id="botao-Confirmar">Confirmar</button>
-                </a>
-                </div>
-
             </div>
-
+            <div class="pagamento">
+                <h1>Pagamento</h1>
+                <div class="formas_pagamento">
+                	<div id="pag">
+                		<img src="../../src/imgs/visa.png"/>
+                	</div>
+                	<div id="pag">
+                		<img src="../../src/imgs/master-card.png" />
+                	</div>
+                	<div id="pag">
+                		<img src="../../src/imgs/hipercard.png" />
+                	</div>
+                    
+                    <div id="pag">
+                    	<img src="../../src/imgs/elo-logo.png" />
+                    </div>
+                    <div id="pag">
+                    	<img src="../../src/imgs/american-express.png" />
+                    </div>
+                    <div id="pag">
+                    	<img src="../../src/imgs/boleto.png" />
+                    </div>
+					<div id="pag">
+						<img src="../../src/imgs/pix.png"  />
+					</div>
+                </div>
+            </div>
+            <div class="siga-nos">
+                <h1>SIGA-NOS</h1>
+                <div>
+                    <img src="../../src/imgs/instagram (2).png" />
+                    <a>Instagram</a>
+                </div>
+                <div>
+                    <img src="../../src/imgs/facebook.png" />
+                    <a>Facebook</a>
+                </div>
+                <div>
+                    <img src="../../src/imgs/linkedin (1).png" />
+                    <a>Linkedin</a>
+                </div>
+            </div>
         </div>
 
-    </div>
-</body>
+        <div id="linha"></div>
+        <div id="direitos_reservados">
+            <p>© 2024 Instrument Store. Todos os direitos reservados</p>
 
+        </div>
+    </footer> 
+    <script src="../../../Javascript/Novasenha.js"> </script>
+    
+    
+
+</body>
 </html>

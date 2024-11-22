@@ -154,7 +154,7 @@ input{
 }
 
 a {
-    color: #ffffff;
+    color: #2417119a;
     text-decoration: none;
 }
 
@@ -169,10 +169,11 @@ button {
 
 }
 
-.cadastrar{
+.Cadastro{
     display: flex;
     justify-content: center;
-    margin-left: -1em;
+    margin-left: 2em;
+    
 }
 
 
