@@ -148,9 +148,9 @@ div.image-telai img{
 /*slider*/
 
 .slider{
-
+    width: 1500px;
     max-width: 100vw;
-    height: 550px;
+    height: 700px;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -166,7 +166,7 @@ div.image-telai img{
     transition: 1s;
 }
 .slider .list img{
-    width: 1100px;
+    width: 1500px;
     max-width: 100vw;
     height: 100%;
     object-fit: cover;
@@ -357,7 +357,7 @@ div.itens1{
 }
 
 #lupa{
-    width: 1m;
+    width: 1em;
     height: 1em;
     margin-left: 23em;
     
@@ -365,14 +365,19 @@ div.itens1{
 
 }
 
+.carrinho{
+    
+}
 
-i:hover{
+
+.bi-heart:hover{
     background-color: #cf4d10;
     transition: 0.3s;
     height: 1em;
     width: -1em;
     border-radius: 15em;
 }
+
 
 
 div.itens2{
