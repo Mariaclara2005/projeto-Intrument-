@@ -25,7 +25,7 @@
             </div>
 
     <form>
-        <input type="text" placeholder="Login" id="login">
+        <input type="text" placeholder="Email" id="login">
         <input type="password" placeholder="Senha" id="senha">
         <div class="Recsenha">
             <a href="../../pages/recuperar senha/Recsenha.html">Recuperar senha</a>
@@ -34,22 +34,7 @@
     </form>
         </div>
 
-    <script>
-        function logar(){
-
-            var login = document.getElementById('login').value;
-            var senha = document.getElementById('senha').value;
-
-            if(login == "admin" && senha == "admin"){
-                alert('Sucesso');
-                location.href = "../../pages/tela inicial/Tela Inicial.html";
-            }else{
-                alert('Usuario ou senha incorretos');
-            }
-
-        }
-
-    </script>
+        <script src="../../../Javascript/Login.js"> </script>
 
 </body>
 </html>

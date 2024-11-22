@@ -5,203 +5,325 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="Instrument-Store-Style.css">
+    <link rel="shortcut icon" href="../../src/imgs/icon.icon.jpeg" type="image/x-icon">
     <title> Instrument Store </title>
 </head>
 <body>
-    
+
     <header> 
         <div class="logo">
-            <img src="imgs/logo.png" alt="">
+            <img src="../../src/imgs/logo.png" alt=" "id="img-logo">
         </div>
         
         <div class="input-buscar">
             <input type="text" placeholder="O que você procura?" id="caixa-busca">
-            <i class="bi bi-search"></i>
+            <i class="bi bi-search" id="lupa"></i>
         </div> <!-- fecha o input-buscar-->
 
         <div class="login">
-            <i class="bi bi-person"></i>
-            <p> Login </p>
-        </div><!-- fecha o login-->  
+            <i class="bi bi-person" id="login"></i>
+            <a href="../../pages/login/Login.html"> <p> Login </p> </a>
+            
+        </div>
         
         <div class="carrinho">
-            <i class="bi bi-cart2"></i>
+            <a href=""> <i class="bi bi-cart2"></i> </a>
+            
         </div>
     </header>
 
-    <nav>
-        <div id="nav-categorias">
-            <i class="bi bi-justify"></i>
-            <p> Todas as Categorias </p>
-        </div>
+<nav class="dp-menu">
+    
+    <ul>
+        <li id="nav-categorias"> 
+            <a href="#" id="categoriasn"> 
+                <i class="bi-justify"></i>
+                <p> Todas as Categorias </p>
+            </a>
 
-        <div id="nav-marcas">
-            <p>Marcas</p>
-        </div>
+            <ul>
+                <li id="nav-cordas">
+                    <a href="#">
+                        <p>Cordas</p>
+                    </a>
+                </li>
 
-        <div id="nav-acessórios">
-            <p>Acessórios</p>
-        </div>
+                <li id="nav-sopro">
+                    <a href="#">
+                        <p>Sopro</p>
+                    </a>
+                </li>
 
-        <div id="nav-quemS">
-            <p> Quem Somos? </p>
-        </div>
-    </nav>
+                <li id="nav-teclas">
+                    <a href="#">
+                        <p>Teclas</p>
+                    </a>
+                </li>
 
-    <div class="image-telai">
-        <img src="imgs/violão.jpg" alt="" id="img-vio">
+                <li id="nav-percurssao">
+                    <a href="#">
+                        <p> Percurssão </p>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li id="nav-marcas">
+            <a href="#">
+                <p>Marcas</p>
+            </a>
+        </li>
+
+        <li id="nav-acessórios">
+            <a href="#">
+                <p>Acessórios</p>
+            </a>
+        </li>
+
+        <li id="nav-quemS">
+            <a href="#">
+                <p> Quem Somos? </p>
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<!-- slider -->
+
+<div class="slider">
+    <div class="list">
+        <div class="item">
+            <img src="../../src/imgs/BANNER PRINCIPAL MOBILE 0.png" alt="">
+        </div>
+        <div class="item">
+            <img src="../../src/imgs/BANNER 1 MOBILE - Guitarra.png" alt="">
+        </div>
+        <div class="item">
+            <img src="../../src/imgs/BM2 CHARVEL TESTE PRODUTO.png" alt="">
+        </div>
+        <div class="item">
+            <img src="../../src/imgs/BM3 FENDER TESTE PRODUTO.png" alt="">
+        </div>
+        <div class="item">
+            <img src="../../src/imgs/BM5 - Substituir.png" alt="">
+        </div>
     </div>
+    <div class="buttons">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <ul class="dots">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
 
     <div class="itens1">
         
-        <div id="v1">
-            <img src="imgs/violao1.png" alt="" id="violão1" height="300"> 
+        <div class="item">
+            
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao1.png" alt="" id="violao1" height="300"> 
+            <p class="descricao"> Violão Tagina 20 Marrom Elétrico </p>
+            <br>
 
-
-            <p> Violão Tagina 20 Marrom Elétrico </p>
-            <p> R$300,00 </p>
+            <div class="heart-preco">
+            <p class="preco"> R$300,00 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
        
-        <div id="v2">
-            <img src="imgs/violao2.png" alt="" id="violão2" height="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao2.png" alt="" id="violao2" height="300"> 
 
-            <p> Guitarra Cassio Red
-                Elétrica </p>
-            <p> R$560,00 </p>
+            <p class="descricao"> Guitarra Cassio Red Elétrica </p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$560,00 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
-        <div id="v3">
-            <img src="imgs/violao3.png" alt="" id="violão3" height="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao3.png" alt="" id="violao3" height="300"> 
 
-            <p> Violão Charvel Preto
-                Acustico </p>
-            <p> R$250,00 </p>
+            <p class="descricao"> Violão Charvel Preto Acustico </p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$250,00 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
-        <div id="v4">
-            <img src="imgs/violao4.png" alt="" id="violão4" height="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao4.png" alt="" id="violao4" height="300"> 
 
-            <p> Violão Charvel Marrom
-                Acustico </p>
-            <p> R$260,50 </p>
+            <p class="descricao"> Violão Charvel Marrom Acustico </p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$260,50 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
     </div>
 
     <div class="itens2">
 
-        <div id="v5">
-            <img src="imgs/violao5.png" alt="" id="violão5" height="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao5.png" alt="" id="violao5" height="250"> 
 
-            <p> Caixa 14X8 Classica PHX MSIGMA </p>
-            <p> R$498,50 </p>
+            <p class="descricao"> Caixa 14X8 Classica MSIGMA </p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$498,50 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
         
-        <div id="v6">
-            <img src="imgs/violao6.png" alt="" id="violão6" height="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao6.png" alt="" id="violao6" height="300"> 
 
-            <p> Contra Baixo Milenium
-                Tagina </p>
-            <p> R$ 1.979,91</p>
-            <i class="bi bi-heart"></i>
+            <p class="descricao"> Contra Baixo Milenium Tagina </p>
+            <br>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <div class="heart-preco">
+            <p class="preco"> R$ 1.979,91</p>
+            <i class="bi-heart"></i>
+            </div>
+
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
         
-        <div id="v7">
-            <img src="imgs/violao7.png" alt="" id="violão7" height="170" width="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao7.png" alt="" id="violao7" height="130" width="250"> 
 
-            <p> Trompete Roland Ouro
-                Aço Inoxidavel </p>
-            <p> R$ 4.111,00 </p>
-            <i class="bi bi-heart"></i>
+            <p class="descricao">Trompete Roland Ouro Aço</p>
+            <br>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <div class="heart-preco">
+            <p class="preco"> R$ 4.111,00</p>
+            <i class="bi-heart"></i>
+            </div>
+
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
-        <div id="v8">
-            <img src="imgs/violao8.png" alt="" id="violão8" height="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao8.png" alt="" id="violao8" height="300"> 
 
-            <p> Saxophone Glory Gold
-                Shure </p>
-            <p> R$2.800,00 </p>
+            <p class="descricao"> Saxophone Glory Gold Shure </p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$2.800,00 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
     </div>
 
     <div class="itens3">
 
-        <div id="v9">
-            <img src="imgs/violao9.png" alt="" id="violão9" height="300"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao9.png" alt="" id="violao9" height="300"> 
 
-            <p> Violino  Ibanez Marrom
-                Millenium </p>
-            <p> R$3.450,00 </p>
+            <p class="descricao"> Violino  Ibanez Marrom Millenium </p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$3.450,00 </p>
             <i class="bi bi-heart"></i>
-
-            <button type="submit"> Adicionar ao Carrinho </button>
+            </div>
+            
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
        
-        <div id="v10">
-            <img src="imgs/violao10.png" alt="" id="violão10" height="200"> 
+        <div class="item">
 
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao10.png" alt="" id="violao10" height="200"> 
 
-            <p> Caixa Para Bateria
-                Torelli Marrom</p>
-            <p> R$630,00 </p>
+            <p class="descricao"> Caixa Para Bateria Torelli Marrom</p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$630,00 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
-        <div id="v11">
-            <img src="imgs/violao11.png" alt="" id="violão11" height="60%"> 
+        <div class="item">
 
-            <p> Teclado Cassio Eletrico
-                30X30</p>
-            <p> R$1.300,00 </p>
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao11.png" alt="" id="violao11" height="25%"> 
+
+            <p class="descricao"> Teclado Cassio Eletrico 30X30</p>
+            <br>
+
+            <div class="heart-preco">
+            <p class="preco"> R$1.300,00 </p>
             <i class="bi bi-heart"></i>
+            </div>
 
-            <button type="submit"> Adicionar ao Carrinho </button>
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
-        <div id="v12">
-            <img src="imgs/violao12.png" alt="" id="violão12" height="300"> 
+        <div class="item">
+            
+            <div class="space-itens"></div>
+            <img src="../../src/imgs/violao12.png" alt="" id="violao12" height="300"> 
 
+            <p class="descricao"> Violão Yamaha Marrom Acustico</p>
+            <br>
 
-            <p> Violão Yamaha Marrom
-                Acustico</p>
-            <p> R$570,00 </p>
+            <div class="heart-preco">
+            <p class="preco"> R$570,00 </p>
             <i class="bi bi-heart"></i>
-
-            <button type="submit"> Adicionar ao Carrinho </button>
+            </div>
+            
+            <button type="submit" class="add-carrinho"> Adicionar ao Carrinho </button>
         </div>
 
     </div>
@@ -209,19 +331,21 @@
     <div class="categorias">
 
         <div class="categorias1">
-            <img src="imgs/cordas.jpg" alt="">
-            <img src="imgs/sopro.jpg" alt="">
+            <img src="../../src/imgs/cordas.jpg" alt="">
+            <img src="../../src/imgs/sopro.jpg" alt="">
         </div>
     
         <div class="categorias2">
-            <img src="imgs/acessorios.jpg" alt="">
-            <img src="imgs/percussão.jpg" alt="">
+            <img src="../../src/imgs/acessorios.jpg" alt="">
+            <img src="../../src/imgs/percussão.jpg" alt="">
         </div>
 
         <div class="categorias3">
-            <img src="imgs/teclado.jpg" alt="">
+            <img src="../../src/imgs/teclado.jpg" alt="">
         </div>
     
     </div>
+
+    <script src="../../../Javascript/jsTelaInicio.js"> </script>
 </body>
 </html>
